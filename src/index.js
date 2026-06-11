@@ -11,7 +11,11 @@ import Garage from './ComponentInComponent';
 import State from './State.jsx';
 import ChangingState from './ChangingState.jsx';
 import Foo from './Foo.js';
-
+import FixedFoo from './FixedFoo.js';
+import Counter from './Counter.js';
+import CounterLog from './CounterLog.js';
+import BasicFigure from './BasicFigure.js';
+import FigureList from './FigureList.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,7 +28,12 @@ root.render(
     {/* <App /> */}
     {/* <State /> */}
     {/* <ChangingState /> */}
-    <Foo />
+    {/* <Foo /> */}
+    {/* <FixedFoo /> */}
+    {/* <Counter /> */}
+    {/* <CounterLog /> */}
+    <FigureList />
+    {/* <BasicFigure /> */}
   </React.StrictMode>
 );
 

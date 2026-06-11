@@ -1,12 +1,17 @@
 import React from 'react';
-class Foo extends React.Component{
+
+class FixedFoo extends React.Component{
   constructor( props ){
     super( props );
     this.message = "hello";
+
+    this.handleClick = this.handleClick.bind(this);
   }
+
   handleClick(event){
-    console.log(this.message); // 'this' is undefined
+    console.log(this.message); // 'hello'
   }
+
   render(){
     return (
       <button type="button" onClick={this.handleClick}>
@@ -15,4 +20,5 @@ class Foo extends React.Component{
     );
   }
 }
-export default Foo;
+
+export default FixedFoo;
