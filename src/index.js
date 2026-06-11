@@ -5,7 +5,6 @@ import Car from './Car';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Constructor from './Constructor';
-import PropConstructor from './PropConstructor';  
 import Foo from './Foo.js';
 import FixedFoo from './FixedFoo.js';
 import Counter from './Counter.js';
