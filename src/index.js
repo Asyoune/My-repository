@@ -17,13 +17,12 @@ root.render(
   <React.StrictMode>
     {/* <Car />  */}
     {/* <Constructor /> */}
-    {/* <PropConstructor model ="Mustang" /> */}
-    {/* <App /> */}
+    <App />
     {/* <Foo /> */}
     {/* <FixedFoo /> */}
     {/* <Counter /> */}
     {/* <CounterLog /> */}
-    <FigureList />
+    {/* <FigureList /> */}
     {/* <BasicFigure /> */}
   </React.StrictMode>
 );

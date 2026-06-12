@@ -6,7 +6,6 @@ class App extends Component {
     this.state = { count: 0 };
   }
   
-
   componentDidMount() {
     console.log('Component mounted');
   }
